@@ -12,6 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -21,10 +22,10 @@ import { MatInputModule } from '@angular/material/input';
        MatListModule,    MatButtonModule,    MatIconModule, CommonModule,MatFormFieldModule, MatIconModule,
        MatSelectModule, MatCardModule,  MatFormFieldModule,
        MatInputModule ,
-    MatSlideToggleModule],
+    MatSlideToggleModule,MatSnackBarModule],
   exports: [MatTableModule, MatPaginatorModule, MatToolbarModule,  MatSidenavModule,  MatFormFieldModule, MatIconModule,
     MatListModule,    MatButtonModule,    MatIconModule, CommonModule,MatSelectModule, MatFormFieldModule,
     MatInputModule ,
-    MatCardModule]
+    MatCardModule,MatSnackBarModule]
 })
 export class MaterialModule {}
